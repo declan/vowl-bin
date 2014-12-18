@@ -1,15 +1,15 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'vowl/bin/version'
+require 'vowl/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "vowl-bin"
-  spec.version       = Vowl::Bin::VERSION
+  spec.version       = Vowl::VERSION
   spec.authors       = ["Declan Frye"]
   spec.email         = ["deckleberryfrye@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{vowl executable}
+  spec.description   = %q{Strips the last "e" out of certain words, like "grinder"}
   spec.homepage      = ""
   spec.license       = "MIT"
 

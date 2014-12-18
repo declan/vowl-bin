@@ -1,0 +1,5 @@
+#! /usr/bin/env ruby
+
+ARGF.each do |line|
+  puts line.split(/\s/).map { |word| word.sub(/([^aeiouAEIOU])e([rln])$/, '\1\2') }.join(' ')
+end
