@@ -1,0 +1,3 @@
+[submodule "vowl-submodule"]
+	path = vowl-submodule
+	url = https://github.com/declan/vowl
